@@ -1,0 +1,53 @@
+Codebook for Diamonds Dataset (Codebook.txt)
+--------------------------------------------------------------------------------------------------------------
+
+Variable Name             Range                     Variable Description
+---------------------------------------------------------------------------------------------------------------
+Price                      (\$326--\$18,823)            Price in US dollars
+(Discrete)
+
+Carat                          (0.2--5.01)	                 Weight of the diamond
+(Continuos)
+
+Cut                               Fair                           
+(Ordinal)                      Good
+                                    Very Good                Quality of the cut 
+                                    Premium
+                                    Ideal
+
+Color                            J(Worst)	                 
+(Ordinal)                      I
+                                    H
+                                    G                              Diamond colour
+                                    F
+                                    E
+                                    D(Best)
+
+Clarity                         I1 (Worst)              
+(Ordinal)                     SI2
+                                   SI1
+                                   VS2                           a measurement of how clear the diamond is 
+                                   VS1 
+                                   VVS2
+                                   VVS1
+                                   IF (Best) 
+
+x 	                 (0--10.74) 		Length in mm
+(Continuos)
+
+
+y                                (0--58.9) 		Width in mm
+(Continuos)
+
+
+z                                (0--31.8) 		Depthin mm
+(Continuos)
+
+
+depth 	                 (43--79)		Total depth percentage = 2z / x + y
+(Continuos)
+
+table  	                 (43--95)	                 Width of top of diamond relative to widest point 
+(Continuos)
+
+
